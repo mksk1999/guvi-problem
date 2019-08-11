@@ -1,0 +1,12 @@
+x1,y1=map(int,input().split())
+x2,y2=map(int,input().split())
+x3,y3=map(int,input().split())
+x4,y4=map(int,input().split())
+d1=((x2-x1)**2+(y2-y1)**2)**0.5
+d2=((x3-x2)**2+(y3-y2)**2)**0.5
+d3=((x4-x3)**2+(y4-y3)**2)**0.5
+d4=((x1-x4)**2+(y1-y4)**2)**0.5
+if(d1==d2==d3==d4):
+    print("yes")
+else:
+    print("no")
